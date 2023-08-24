@@ -1,0 +1,199 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+li {
+  background-color: #ffffff;
+}
+.link {
+  text-decoration: none;
+  color: #434455;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.part-of-logo {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.list {
+  list-style-type: none;
+}
+.address {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2e2f42;
+}
+.link-address {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.nav {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-list .link-nav-list:hover,
+.nav-list .link-nav-list:focus {
+  color: #404bbf;
+}
+.link-nav-list {
+  color: #2e2f42;
+}
+.address .link-address:focus,
+.address .link-address:hover {
+  color: #404bbf;
+}
+.hero-section .button:focus,
+.hero-section .button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.hero-section {
+  font-family: "Roboto", sans-serif;
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.list-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.list-page {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.item-list-team {
+  background-color: #ffffff;
+}
+.title-our-team {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.members-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+.members-post {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  background-color: #ffffff;
+}
+.title-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-item {
+  background-color: #ffffff;
+}
+.products {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+.function {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logo-in-footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.part-of-logo-in-footer {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.finish-page {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
+}
