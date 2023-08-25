@@ -48,15 +48,15 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .conteiner-header {
+  display: flex;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: 0;
   margin-right: auto;
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .link {
   text-decoration: none;
@@ -123,9 +123,9 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
+
 .nav-list .link-nav-list:hover,
 .nav-list .link-nav-list:focus {
   color: #404bbf;
@@ -202,8 +202,9 @@ img {
   gap: 24px;
 }
 .list-section-item {
-  width: calc((100%-72) / 4);
+  width: calc((100% - 72px) / 4);
 }
+
 .list-item-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -302,7 +303,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .list-portfolio {
   display: flex;
@@ -331,6 +332,7 @@ img {
   padding-top: 32px;
   padding-bottom: 4px;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 .function {
   font-family: "Roboto", sans-serif;
