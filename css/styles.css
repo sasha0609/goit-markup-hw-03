@@ -217,6 +217,8 @@ img {
   padding-right: 15px;
   margin-left: 0;
   margin-right: auto;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .item-list-team {
   background-color: #ffffff;
@@ -262,7 +264,7 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
   padding-top: 60px;
   margin-left: 0;
   margin-right: auto;
