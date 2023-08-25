@@ -56,7 +56,6 @@ img {
   margin-left: 0;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
 .link {
@@ -135,6 +134,8 @@ img {
   text-decoration: none;
   color: #2e2f42;
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address .link-address:focus,
 .address .link-address:hover {
@@ -200,7 +201,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.list-section {
+.list-section-item {
   width: calc((100%-72) / 4);
 }
 .list-item-title {
