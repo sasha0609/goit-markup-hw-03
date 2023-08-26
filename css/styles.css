@@ -42,8 +42,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
 .page-header {
   padding-top: 24px;
@@ -59,6 +57,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: space-between;
 }
 .link {
   text-decoration: none;
@@ -157,7 +156,6 @@ img {
   height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
 }
 
 .hero-title {
@@ -166,7 +164,6 @@ img {
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  padding-top: 188px;
   max-width: 496px;
   text-align: center;
 }
@@ -183,6 +180,7 @@ img {
   height: 56px;
   min-width: 169px;
   border-radius: 4px;
+  margin-top: 48px;
   cursor: pointer;
 }
 /* SECTION 1 */
@@ -196,8 +194,6 @@ img {
   padding-right: 15px;
   margin-left: 0;
   margin-right: auto;
-  display: flex;
-  column-gap: 24px;
 }
 
 .list-section {
@@ -207,9 +203,8 @@ img {
   gap: 24px;
 }
 .list-section-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
-
 .list-item-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -265,6 +260,7 @@ img {
 .member-info {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .members-name {
   font-family: "Roboto", sans-serif;
@@ -314,13 +310,12 @@ img {
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
 }
 
 .portfolio-item {
   background-color: #ffffff;
   display: block;
+  width: calc((100% - 48px) / 3);
 }
 .product-info {
   padding: 32px 16px;
@@ -374,8 +369,8 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .part-of-logo-in-footer {
   color: #f4f4fd;
