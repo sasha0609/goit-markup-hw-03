@@ -196,8 +196,6 @@ img {
 } */
 
 .list-section {
-  padding-right: 15px;
-  padding-left: 15px;
   display: flex;
   gap: 24px;
 }
