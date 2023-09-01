@@ -52,8 +52,7 @@ img {
 .container-header {
   display: flex;
   width: 1158px;
-  margin-left: 0;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: space-between;
